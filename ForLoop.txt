@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Forloop {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the number you want to execute a loop :");
+        int n=input.nextInt();
+        for (int i=1;i<=n;i++){
+            System.out.println(i+" the For loop is executed.");
+        }
+    }
+}
+
+output
+
+Enter the number you want to execute a loop :
+10
+1 the For loop is executed.
+2 the For loop is executed.
+3 the For loop is executed.
+4 the For loop is executed.
+5 the For loop is executed.
+6 the For loop is executed.
+7 the For loop is executed.
+8 the For loop is executed.
+9 the For loop is executed.
+10 the For loop is executed.
+
+Process finished with exit code 0
